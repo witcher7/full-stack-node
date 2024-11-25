@@ -1,1 +1,73 @@
 
+# JS architecture
+--> ENGINE for Chrome -->  ECMA scriptStandard
+--> Engine for Firefox -->  |
+--> Engine for Safari -->   |
+                                V8 engine
+==> nodejs  (ENGINE FOR CHROME)
+
+var name = "Rishabh Gulati"
+var age = 20;
+var array = ["Raman","Chaman","Samar","Rishabh"]
+ #             0         1       2       3
+               `{INDEX NUMBERS}`
+
+let and const are also there
+---
+let is scope based and var is global way if we declare anything 
+in the var, it will change the value for that variable through out the
+global level
+
+# objects
+
+var user1 = {
+	name: "Rishabh",
+	age: 21,
+	email: gulati.r7121@gmail.com
+}
+var name = "Rishabh"
+console.log(name)
+
+
+## array
+
+var users = ["Rish","Gulati","Karan"]
+console.log(users[0])
+console.log(users[1])
+console.log(users[2])
+
+
+## loop
+for (var i =0; i<users.length; i++) {
+	console.log(users[i]) ## print all the elements Rish, Gulati, Karan
+}
+
+
+While ( Condition True){
+	do this task //
+}
+---
+
+ var objects-array = [
+ {name: "Rish" , age: 21},
+ {name: "Touka", age: 22}
+ ]
+
+
+ function printAllUsers(){
+
+    for (var i =0; i<users.length; i++) {
+	console.log(users[i]) ## print all the elements Rish, Gulati, Karan
+}
+}
+
+function sum (parameter1,parameter2, parameter3){
+	console.log(parameter1)
+	console.log(parameter2)
+	console.log(parameter3)
+
+}
+
+## to check equality 
+if (WhatToDo === "Sum") ## === check value and type as well (strict equality)
+else if (WhatToDo =="NotSum") ## == 
