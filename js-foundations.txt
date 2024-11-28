@@ -1,4 +1,3 @@
-----------------------------------------------------
 # JS architecture
 --> ENGINE for Chrome -->  ECMA scriptStandard
 --> Engine for Firefox -->  |
@@ -71,3 +70,76 @@ function sum (parameter1,parameter2, parameter3){
 ## to check equality 
 if (WhatToDo === "Sum") ## === check value and type as well (strict equality)
 else if (WhatToDo =="NotSum") ## == 
+
+
+
+------
+function sum(index1,index,2){
+
+}
+
+
+function doArithmetic(firstEl,secondEl,arithmetic){
+	return arithmetic(firstEl,secondEl)
+}
+
+JS runs on browser, data centers, TV , everywhere, mobile devices
+
+> SINGLE THREADED 
+# it can run only one core 
+> Multiple Threaded languages requiring more power and can be fast  
+
+even though we give more power as well , it will still use single thread
+
+function sum (number){
+	let sum =0 
+	for (var i = 0; i<n; i++){
+		sum += i;
+	}
+	return sum 
+} 
+var startTime = new Date().getTime()
+
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+const a = sum(1000000000000000000/10);
+
+var endTime = new Date().getTime()
+
+console.log((endTime - startTime)/ 10000)
+
+#Asynchronous in  nature 
+ task does not run on the same thread 
+ <!-- we need to use Callbacks --> functions inside function  -->
+ readFromFile(a.txt) // 
+sum(100)
+sum(100)
+sum(100)
+sum(100)
+sum(100)
+sum(100)
+ 
+ function fileIsRead(err,filecontent){
+ 	var ans = sum(fileContent)
+ 	console.log("file is read gave final answer" + ans)
+ } 
+
+                                     ---> this work will be gone for next part we will not wait!!!
+                                     |
+fs.readFile("Chocolate.txt","utf8",fileIsRead)
+console.log("Hello")  > this will printed first
+sum(21)  >  this will be printed second
+sum(23)  > this will be printed third 
+
+# JS is loosly typed
+-->  the functions can accept anything numbers, objects, array and it 
+will just give you an output
+other hand strong typed ---> the functions only allow specific type
