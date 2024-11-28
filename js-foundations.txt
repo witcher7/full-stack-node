@@ -1,4 +1,4 @@
-
+-----------------------------------------------------------
 # JS architecture
 --> ENGINE for Chrome -->  ECMA scriptStandard
 --> Engine for Firefox -->  |
